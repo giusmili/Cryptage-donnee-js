@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+      <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <header>
+    <h1>
+        <span aria-hidden="true">
+            👽️
+        </span>
+        Visible password!
+    </h1>
+    </header>
+    <main>
+      <!-- main -->
+      <div class="main-form" role="group" aria-labelledby="info">
+        <fieldset>
+          <legend>
+            <span aria-hidden="true">🔐</span>
+            Login &amp; password
+        </legend>
+          <form action="index.html" id="info" method="postt">
+            <label for="login">Login :</label>
+            <input
+              type="email"
+              id="login"
+              name="login"
+            > 
+           
+                </span>
+            <label for="password">
+                <span class="material-symbols-outlined">
+                    visibility
+                </span>
+            Password :
+                
+            </label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Mot de passe"
+            >
+            <input type="submit" value="Send me" class="btn_form">
+          </form>
+        </fieldset>
+      </div>
+      <figure>
+        <img src="./asset/cover.svg" alt="cover">
+        <figcaption>
+            <h3>Stocker et crypter des donnees</h3>
+        </figcaption>
+      </figure>
+    </main>
+    <!--  end main -->
+    <!-- begin footer -->
+    <footer>
+      <p>&copy; - MIT - 2023</p>
+    </footer>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>

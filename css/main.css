@@ -1,0 +1,87 @@
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  background-color: var(--seasalt);
+}
+h1,
+h2,
+h3,
+legend {
+  color: #222;
+}
+:root{
+    /* CSS HEX */
+--dark-pastel-green: #2dba4eff;
+--gunmetal: #24292eff;
+--seasalt: #fafbfcff;
+
+/* CSS HSL */
+--dark-pastel-green: hsla(134, 61%, 45%, 1);
+--gunmetal: hsla(210, 12%, 16%, 1);
+--seasalt: hsla(210, 25%, 98%, 1);
+
+}
+header h1,
+footer * {
+  text-align: center;
+  line-height: 7.5rem;
+}
+header{
+    background-color: var(--gunmetal);
+    
+}
+header *{
+    color: var(--seasalt);
+}
+
+.main-form {
+  max-width: 80rem;
+  margin: 5rem auto;
+}
+fieldset legend {
+  font-size: 3.5rem;
+  font-weight: 100;
+}
+.button,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    background-color: var(--dark-pastel-green);
+    border: 0;
+    transition-duration: .6s;
+}
+input[type="submit"]:hover{
+    background-color: #076822;
+    
+}
+.material-symbols-outlined {
+  vertical-align: middle;
+  cursor: pointer;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+.button,
+button,
+input[type="button"],
+input[type="reset"] {
+  line-height: inherit;
+
+}
+div:where(.swal2-container) div:where(.swal2-popup) {
+  font-weight: 100;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+    background-color: var(--dark-pastel-green);
+    color: var(--seasalt);
+  
+}
+figure{
+    margin: 0;
+    max-width: max-content;
+    margin: 0 auto;
+}
+figure h3{
+    text-align: center;
+}
